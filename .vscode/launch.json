@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "environment": [],
+            "stopAtEntry": false,
+            "program": "${workspaceRoot}/zig-cache/bin/program.exe",
+            "name": "program",
+            "externalConsole": false,
+            "preLaunchTask": "zig_build",
+            "request": "launch",
+            "args": [],
+            "type": "cppvsdbg",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
